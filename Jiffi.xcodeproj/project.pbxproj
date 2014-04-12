@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		653678D818F94EB500D88CBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653678D718F94EB500D88CBA /* Foundation.framework */; };
+		653678DA18F94EB500D88CBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653678D918F94EB500D88CBA /* CoreGraphics.framework */; };
+		653678DC18F94EB500D88CBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653678DB18F94EB500D88CBA /* UIKit.framework */; };
+		653678E218F94EB500D88CBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 653678E018F94EB500D88CBA /* InfoPlist.strings */; };
+		653678E418F94EB500D88CBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 653678E318F94EB500D88CBA /* main.m */; };
+		653678E818F94EB500D88CBA /* JiffiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 653678E718F94EB500D88CBA /* JiffiAppDelegate.m */; };
+		653678EB18F94EB500D88CBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653678E918F94EB500D88CBA /* Main.storyboard */; };
+		653678EE18F94EB500D88CBA /* JiffiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653678ED18F94EB500D88CBA /* JiffiViewController.m */; };
+		653678F018F94EB500D88CBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653678EF18F94EB500D88CBA /* Images.xcassets */; };
+		653678F718F94EB500D88CBA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653678F618F94EB500D88CBA /* XCTest.framework */; };
+		653678F818F94EB500D88CBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653678D718F94EB500D88CBA /* Foundation.framework */; };
+		653678F918F94EB500D88CBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653678DB18F94EB500D88CBA /* UIKit.framework */; };
+		6536790118F94EB500D88CBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 653678FF18F94EB500D88CBA /* InfoPlist.strings */; };
+		6536790318F94EB500D88CBA /* JiffiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6536790218F94EB500D88CBA /* JiffiTests.m */; };
+		6536791418F9577000D88CBA /* JiffiNewsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6536791318F9577000D88CBA /* JiffiNewsTVC.m */; };
+		6536791718F958EA00D88CBA /* JiffiNewNewsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6536791618F958EA00D88CBA /* JiffiNewNewsTVC.m */; };
+		6536791A18F98E8400D88CBA /* JiffiSportsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6536791918F98E8400D88CBA /* JiffiSportsTableViewController.m */; };
+		6536791D18F9946B00D88CBA /* JiffiCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6536791C18F9946B00D88CBA /* JiffiCameraViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		653678FA18F94EB500D88CBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 653678CC18F94EB500D88CBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 653678D318F94EB500D88CBA;
+			remoteInfo = Jiffi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		653678D418F94EB500D88CBA /* Jiffi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jiffi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		653678D718F94EB500D88CBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		653678D918F94EB500D88CBA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		653678DB18F94EB500D88CBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		653678DF18F94EB500D88CBA /* Jiffi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jiffi-Info.plist"; sourceTree = "<group>"; };
+		653678E118F94EB500D88CBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		653678E318F94EB500D88CBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		653678E518F94EB500D88CBA /* Jiffi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jiffi-Prefix.pch"; sourceTree = "<group>"; };
+		653678E618F94EB500D88CBA /* JiffiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiffiAppDelegate.h; sourceTree = "<group>"; };
+		653678E718F94EB500D88CBA /* JiffiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiffiAppDelegate.m; sourceTree = "<group>"; };
+		653678EA18F94EB500D88CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		653678EC18F94EB500D88CBA /* JiffiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiffiViewController.h; sourceTree = "<group>"; };
+		653678ED18F94EB500D88CBA /* JiffiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiffiViewController.m; sourceTree = "<group>"; };
+		653678EF18F94EB500D88CBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		653678F518F94EB500D88CBA /* JiffiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiffiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		653678F618F94EB500D88CBA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		653678FE18F94EB500D88CBA /* JiffiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JiffiTests-Info.plist"; sourceTree = "<group>"; };
+		6536790018F94EB500D88CBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6536790218F94EB500D88CBA /* JiffiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiffiTests.m; sourceTree = "<group>"; };
+		6536791218F9577000D88CBA /* JiffiNewsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiffiNewsTVC.h; sourceTree = SOURCE_ROOT; };
+		6536791318F9577000D88CBA /* JiffiNewsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiffiNewsTVC.m; sourceTree = SOURCE_ROOT; };
+		6536791518F958EA00D88CBA /* JiffiNewNewsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiffiNewNewsTVC.h; sourceTree = "<group>"; };
+		6536791618F958EA00D88CBA /* JiffiNewNewsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiffiNewNewsTVC.m; sourceTree = "<group>"; };
+		6536791818F98E8400D88CBA /* JiffiSportsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiffiSportsTableViewController.h; sourceTree = "<group>"; };
+		6536791918F98E8400D88CBA /* JiffiSportsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiffiSportsTableViewController.m; sourceTree = "<group>"; };
+		6536791B18F9946B00D88CBA /* JiffiCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiffiCameraViewController.h; sourceTree = "<group>"; };
+		6536791C18F9946B00D88CBA /* JiffiCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiffiCameraViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		653678D118F94EB500D88CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653678DA18F94EB500D88CBA /* CoreGraphics.framework in Frameworks */,
+				653678DC18F94EB500D88CBA /* UIKit.framework in Frameworks */,
+				653678D818F94EB500D88CBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653678F218F94EB500D88CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653678F718F94EB500D88CBA /* XCTest.framework in Frameworks */,
+				653678F918F94EB500D88CBA /* UIKit.framework in Frameworks */,
+				653678F818F94EB500D88CBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		653678CB18F94EB500D88CBA = {
+			isa = PBXGroup;
+			children = (
+				653678DD18F94EB500D88CBA /* Jiffi */,
+				653678FC18F94EB500D88CBA /* JiffiTests */,
+				653678D618F94EB500D88CBA /* Frameworks */,
+				653678D518F94EB500D88CBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		653678D518F94EB500D88CBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				653678D418F94EB500D88CBA /* Jiffi.app */,
+				653678F518F94EB500D88CBA /* JiffiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		653678D618F94EB500D88CBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				653678D718F94EB500D88CBA /* Foundation.framework */,
+				653678D918F94EB500D88CBA /* CoreGraphics.framework */,
+				653678DB18F94EB500D88CBA /* UIKit.framework */,
+				653678F618F94EB500D88CBA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		653678DD18F94EB500D88CBA /* Jiffi */ = {
+			isa = PBXGroup;
+			children = (
+				6536791218F9577000D88CBA /* JiffiNewsTVC.h */,
+				6536791318F9577000D88CBA /* JiffiNewsTVC.m */,
+				6536791518F958EA00D88CBA /* JiffiNewNewsTVC.h */,
+				6536791618F958EA00D88CBA /* JiffiNewNewsTVC.m */,
+				653678E618F94EB500D88CBA /* JiffiAppDelegate.h */,
+				653678E718F94EB500D88CBA /* JiffiAppDelegate.m */,
+				653678E918F94EB500D88CBA /* Main.storyboard */,
+				6536791B18F9946B00D88CBA /* JiffiCameraViewController.h */,
+				6536791C18F9946B00D88CBA /* JiffiCameraViewController.m */,
+				6536791818F98E8400D88CBA /* JiffiSportsTableViewController.h */,
+				6536791918F98E8400D88CBA /* JiffiSportsTableViewController.m */,
+				653678EC18F94EB500D88CBA /* JiffiViewController.h */,
+				653678ED18F94EB500D88CBA /* JiffiViewController.m */,
+				653678EF18F94EB500D88CBA /* Images.xcassets */,
+				653678DE18F94EB500D88CBA /* Supporting Files */,
+			);
+			path = Jiffi;
+			sourceTree = "<group>";
+		};
+		653678DE18F94EB500D88CBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				653678DF18F94EB500D88CBA /* Jiffi-Info.plist */,
+				653678E018F94EB500D88CBA /* InfoPlist.strings */,
+				653678E318F94EB500D88CBA /* main.m */,
+				653678E518F94EB500D88CBA /* Jiffi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		653678FC18F94EB500D88CBA /* JiffiTests */ = {
+			isa = PBXGroup;
+			children = (
+				6536790218F94EB500D88CBA /* JiffiTests.m */,
+				653678FD18F94EB500D88CBA /* Supporting Files */,
+			);
+			path = JiffiTests;
+			sourceTree = "<group>";
+		};
+		653678FD18F94EB500D88CBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				653678FE18F94EB500D88CBA /* JiffiTests-Info.plist */,
+				653678FF18F94EB500D88CBA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		653678D318F94EB500D88CBA /* Jiffi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6536790618F94EB500D88CBA /* Build configuration list for PBXNativeTarget "Jiffi" */;
+			buildPhases = (
+				653678D018F94EB500D88CBA /* Sources */,
+				653678D118F94EB500D88CBA /* Frameworks */,
+				653678D218F94EB500D88CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jiffi;
+			productName = Jiffi;
+			productReference = 653678D418F94EB500D88CBA /* Jiffi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		653678F418F94EB500D88CBA /* JiffiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6536790918F94EB500D88CBA /* Build configuration list for PBXNativeTarget "JiffiTests" */;
+			buildPhases = (
+				653678F118F94EB500D88CBA /* Sources */,
+				653678F218F94EB500D88CBA /* Frameworks */,
+				653678F318F94EB500D88CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				653678FB18F94EB500D88CBA /* PBXTargetDependency */,
+			);
+			name = JiffiTests;
+			productName = JiffiTests;
+			productReference = 653678F518F94EB500D88CBA /* JiffiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		653678CC18F94EB500D88CBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Jiffi;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Jiffi;
+				TargetAttributes = {
+					653678F418F94EB500D88CBA = {
+						TestTargetID = 653678D318F94EB500D88CBA;
+					};
+				};
+			};
+			buildConfigurationList = 653678CF18F94EB500D88CBA /* Build configuration list for PBXProject "Jiffi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 653678CB18F94EB500D88CBA;
+			productRefGroup = 653678D518F94EB500D88CBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				653678D318F94EB500D88CBA /* Jiffi */,
+				653678F418F94EB500D88CBA /* JiffiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		653678D218F94EB500D88CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653678F018F94EB500D88CBA /* Images.xcassets in Resources */,
+				653678E218F94EB500D88CBA /* InfoPlist.strings in Resources */,
+				653678EB18F94EB500D88CBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653678F318F94EB500D88CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6536790118F94EB500D88CBA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		653678D018F94EB500D88CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6536791D18F9946B00D88CBA /* JiffiCameraViewController.m in Sources */,
+				653678EE18F94EB500D88CBA /* JiffiViewController.m in Sources */,
+				653678E418F94EB500D88CBA /* main.m in Sources */,
+				6536791A18F98E8400D88CBA /* JiffiSportsTableViewController.m in Sources */,
+				6536791718F958EA00D88CBA /* JiffiNewNewsTVC.m in Sources */,
+				653678E818F94EB500D88CBA /* JiffiAppDelegate.m in Sources */,
+				6536791418F9577000D88CBA /* JiffiNewsTVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653678F118F94EB500D88CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6536790318F94EB500D88CBA /* JiffiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		653678FB18F94EB500D88CBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 653678D318F94EB500D88CBA /* Jiffi */;
+			targetProxy = 653678FA18F94EB500D88CBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		653678E018F94EB500D88CBA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				653678E118F94EB500D88CBA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		653678E918F94EB500D88CBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				653678EA18F94EB500D88CBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		653678FF18F94EB500D88CBA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6536790018F94EB500D88CBA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6536790418F94EB500D88CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6536790518F94EB500D88CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6536790718F94EB500D88CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jiffi/Jiffi-Prefix.pch";
+				INFOPLIST_FILE = "Jiffi/Jiffi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6536790818F94EB500D88CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jiffi/Jiffi-Prefix.pch";
+				INFOPLIST_FILE = "Jiffi/Jiffi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6536790A18F94EB500D88CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jiffi.app/Jiffi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jiffi/Jiffi-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JiffiTests/JiffiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6536790B18F94EB500D88CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jiffi.app/Jiffi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jiffi/Jiffi-Prefix.pch";
+				INFOPLIST_FILE = "JiffiTests/JiffiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		653678CF18F94EB500D88CBA /* Build configuration list for PBXProject "Jiffi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6536790418F94EB500D88CBA /* Debug */,
+				6536790518F94EB500D88CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6536790618F94EB500D88CBA /* Build configuration list for PBXNativeTarget "Jiffi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6536790718F94EB500D88CBA /* Debug */,
+				6536790818F94EB500D88CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6536790918F94EB500D88CBA /* Build configuration list for PBXNativeTarget "JiffiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6536790A18F94EB500D88CBA /* Debug */,
+				6536790B18F94EB500D88CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 653678CC18F94EB500D88CBA /* Project object */;
+}
