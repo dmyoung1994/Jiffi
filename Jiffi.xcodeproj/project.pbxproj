@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		162E131C4FB54836B9D41E4D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23389A66C0DA4706A146A4AB /* libPods.a */; };
 		653678D818F94EB500D88CBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653678D718F94EB500D88CBA /* Foundation.framework */; };
 		653678DA18F94EB500D88CBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653678D918F94EB500D88CBA /* CoreGraphics.framework */; };
 		653678DC18F94EB500D88CBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653678DB18F94EB500D88CBA /* UIKit.framework */; };
@@ -25,6 +26,8 @@
 		6536791718F958EA00D88CBA /* JiffiNewNewsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6536791618F958EA00D88CBA /* JiffiNewNewsTVC.m */; };
 		6536791A18F98E8400D88CBA /* JiffiSportsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6536791918F98E8400D88CBA /* JiffiSportsTableViewController.m */; };
 		6536791D18F9946B00D88CBA /* JiffiCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6536791C18F9946B00D88CBA /* JiffiCameraViewController.m */; };
+		6536792018F9A02100D88CBA /* JiffiNewsArticlesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6536791F18F9A02100D88CBA /* JiffiNewsArticlesTableViewController.m */; };
+		6570491118F9A8EB00533385 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6570491018F9A8EB00533385 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23389A66C0DA4706A146A4AB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		55580BDC6D6F4B84A629AA12 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		653678D418F94EB500D88CBA /* Jiffi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jiffi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		653678D718F94EB500D88CBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		653678D918F94EB500D88CBA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,6 +70,10 @@
 		6536791918F98E8400D88CBA /* JiffiSportsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiffiSportsTableViewController.m; sourceTree = "<group>"; };
 		6536791B18F9946B00D88CBA /* JiffiCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiffiCameraViewController.h; sourceTree = "<group>"; };
 		6536791C18F9946B00D88CBA /* JiffiCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiffiCameraViewController.m; sourceTree = "<group>"; };
+		6536791E18F9A02100D88CBA /* JiffiNewsArticlesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiffiNewsArticlesTableViewController.h; sourceTree = "<group>"; };
+		6536791F18F9A02100D88CBA /* JiffiNewsArticlesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiffiNewsArticlesTableViewController.m; sourceTree = "<group>"; };
+		6570490F18F9A8EB00533385 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "../../../../Downloads/Example-App/Hello World/ViewController.h"; sourceTree = "<group>"; };
+		6570491018F9A8EB00533385 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "../../../../Downloads/Example-App/Hello World/ViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +84,7 @@
 				653678DA18F94EB500D88CBA /* CoreGraphics.framework in Frameworks */,
 				653678DC18F94EB500D88CBA /* UIKit.framework in Frameworks */,
 				653678D818F94EB500D88CBA /* Foundation.framework in Frameworks */,
+				162E131C4FB54836B9D41E4D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +108,7 @@
 				653678FC18F94EB500D88CBA /* JiffiTests */,
 				653678D618F94EB500D88CBA /* Frameworks */,
 				653678D518F94EB500D88CBA /* Products */,
+				55580BDC6D6F4B84A629AA12 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +128,7 @@
 				653678D918F94EB500D88CBA /* CoreGraphics.framework */,
 				653678DB18F94EB500D88CBA /* UIKit.framework */,
 				653678F618F94EB500D88CBA /* XCTest.framework */,
+				23389A66C0DA4706A146A4AB /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -124,17 +136,14 @@
 		653678DD18F94EB500D88CBA /* Jiffi */ = {
 			isa = PBXGroup;
 			children = (
-				6536791218F9577000D88CBA /* JiffiNewsTVC.h */,
-				6536791318F9577000D88CBA /* JiffiNewsTVC.m */,
-				6536791518F958EA00D88CBA /* JiffiNewNewsTVC.h */,
-				6536791618F958EA00D88CBA /* JiffiNewNewsTVC.m */,
+				6570490F18F9A8EB00533385 /* ViewController.h */,
+				6570491018F9A8EB00533385 /* ViewController.m */,
+				653678E918F94EB500D88CBA /* Main.storyboard */,
+				6536792118F9A02B00D88CBA /* News */,
 				653678E618F94EB500D88CBA /* JiffiAppDelegate.h */,
 				653678E718F94EB500D88CBA /* JiffiAppDelegate.m */,
-				653678E918F94EB500D88CBA /* Main.storyboard */,
-				6536791B18F9946B00D88CBA /* JiffiCameraViewController.h */,
-				6536791C18F9946B00D88CBA /* JiffiCameraViewController.m */,
-				6536791818F98E8400D88CBA /* JiffiSportsTableViewController.h */,
-				6536791918F98E8400D88CBA /* JiffiSportsTableViewController.m */,
+				6536792218F9A03400D88CBA /* Camera */,
+				6536792318F9A03C00D88CBA /* Sports */,
 				653678EC18F94EB500D88CBA /* JiffiViewController.h */,
 				653678ED18F94EB500D88CBA /* JiffiViewController.m */,
 				653678EF18F94EB500D88CBA /* Images.xcassets */,
@@ -172,6 +181,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6536792118F9A02B00D88CBA /* News */ = {
+			isa = PBXGroup;
+			children = (
+				6536791218F9577000D88CBA /* JiffiNewsTVC.h */,
+				6536791318F9577000D88CBA /* JiffiNewsTVC.m */,
+				6536791518F958EA00D88CBA /* JiffiNewNewsTVC.h */,
+				6536791618F958EA00D88CBA /* JiffiNewNewsTVC.m */,
+				6536791E18F9A02100D88CBA /* JiffiNewsArticlesTableViewController.h */,
+				6536791F18F9A02100D88CBA /* JiffiNewsArticlesTableViewController.m */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		6536792218F9A03400D88CBA /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				6536791B18F9946B00D88CBA /* JiffiCameraViewController.h */,
+				6536791C18F9946B00D88CBA /* JiffiCameraViewController.m */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		6536792318F9A03C00D88CBA /* Sports */ = {
+			isa = PBXGroup;
+			children = (
+				6536791818F98E8400D88CBA /* JiffiSportsTableViewController.h */,
+				6536791918F98E8400D88CBA /* JiffiSportsTableViewController.m */,
+			);
+			name = Sports;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -179,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6536790618F94EB500D88CBA /* Build configuration list for PBXNativeTarget "Jiffi" */;
 			buildPhases = (
+				775D128552D04152BFC3753C /* Check Pods Manifest.lock */,
 				653678D018F94EB500D88CBA /* Sources */,
 				653678D118F94EB500D88CBA /* Frameworks */,
 				653678D218F94EB500D88CBA /* Resources */,
+				4D6D56996ADA4C9C8BFD37B6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,15 +307,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D6D56996ADA4C9C8BFD37B6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		775D128552D04152BFC3753C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		653678D018F94EB500D88CBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6570491118F9A8EB00533385 /* ViewController.m in Sources */,
 				6536791D18F9946B00D88CBA /* JiffiCameraViewController.m in Sources */,
 				653678EE18F94EB500D88CBA /* JiffiViewController.m in Sources */,
 				653678E418F94EB500D88CBA /* main.m in Sources */,
 				6536791A18F98E8400D88CBA /* JiffiSportsTableViewController.m in Sources */,
+				6536792018F9A02100D88CBA /* JiffiNewsArticlesTableViewController.m in Sources */,
 				6536791718F958EA00D88CBA /* JiffiNewNewsTVC.m in Sources */,
 				653678E818F94EB500D88CBA /* JiffiAppDelegate.m in Sources */,
 				6536791418F9577000D88CBA /* JiffiNewsTVC.m in Sources */,
@@ -398,6 +475,7 @@
 		};
 		6536790718F94EB500D88CBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55580BDC6D6F4B84A629AA12 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -411,6 +489,7 @@
 		};
 		6536790818F94EB500D88CBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55580BDC6D6F4B84A629AA12 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -481,6 +560,7 @@
 				6536790818F94EB500D88CBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6536790918F94EB500D88CBA /* Build configuration list for PBXNativeTarget "JiffiTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +569,7 @@
 				6536790B18F94EB500D88CBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

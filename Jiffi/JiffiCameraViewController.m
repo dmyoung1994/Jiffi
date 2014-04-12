@@ -7,8 +7,10 @@
 //
 
 #import "JiffiCameraViewController.h"
+#import <MobileCoreServices/MobileCoreServices.h>
 
 @interface JiffiCameraViewController ()
+@property (strong, nonatomic) IBOutlet UIImageView *picView;
 
 @end
 
@@ -34,22 +36,37 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)takePicture:(id)sender {
+    UIImagePickerController *imagePicker =
+    [[UIImagePickerController alloc] init];
+    imagePicker.delegate = self;
+    imagePicker.sourceType =
+    UIImagePickerControllerSourceTypeCamera;
+    imagePicker.mediaTypes =
+    @[(NSString *) kUTTypeImage];
+    
+    imagePicker.allowsEditing = NO;
+    [self presentViewController:imagePicker
+                       animated:YES completion:nil];
+}
 
 - (void) viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-    UIImagePickerController *ipc = [[UIImagePickerController alloc] init];
-    ipc.modalPresentationStyle = UIModalPresentationCurrentContext;
-    ipc.delegate = self;
-    [self presentViewController:ipc animated:NO completion:nil];
+    
 }
 
-- (void) imagePickerControllerDidCancel:(UIImagePickerController *)picker {
+
+
+-(void)imagePickerController: (UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
+{
+    // Code here to work with media
     [self dismissViewControllerAnimated:YES completion:nil];
+    UIImage *image = info[UIImagePickerControllerOriginalImage];
+    NSLog(@"%@", image);
+    self.picView.image = image;
 }
 
-- (void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
-    UIImage *image = [info valueForKey:UIImagePickerControllerOriginalImage];
-    NSLog(@"Image: %@", image);
+-(void)imagePickerControllerDidCancel: (UIImagePickerController *)picker
+{
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
