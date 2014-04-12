@@ -404,6 +404,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jiffi/Jiffi-Prefix.pch";
 				INFOPLIST_FILE = "Jiffi/Jiffi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -417,6 +418,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jiffi/Jiffi-Prefix.pch";
 				INFOPLIST_FILE = "Jiffi/Jiffi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -481,6 +483,7 @@
 				6536790818F94EB500D88CBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6536790918F94EB500D88CBA /* Build configuration list for PBXNativeTarget "JiffiTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +492,7 @@
 				6536790B18F94EB500D88CBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
