@@ -1,18 +1,20 @@
 <?php
 
-$title = $_GET["title"];
-
+$data = $_POST['text'];
 include 'scripts/connections.php';
 
 $con = getConnection();
 
-$statement = "SELECT content from news where article_name = ". $title;
+$statement = "INSERT INTO voice (content) VALUES (\"" . $data . "\")";
 	   $result = mysqli_query($con,$statement);
 
-       while($row = mysqli_fetch_array($result))
+echo 200;
+      /*
+ while($row = mysqli_fetch_array($result))
 		  {
 		  echo $row[0];
 		  }
+*/
       mysqli_close($con);
 
 

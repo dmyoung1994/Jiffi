@@ -7,7 +7,7 @@ include 'scripts/connections.php';
 $con = getConnection();
 
  $statement = "SELECT article_name,content from news where publisher = \"" . $publisher . "\"";
-	   //echo $statement;
+	  // echo $statement;
 	   $result = mysqli_query($con,$statement);
 	   
 	   $pins = array();		

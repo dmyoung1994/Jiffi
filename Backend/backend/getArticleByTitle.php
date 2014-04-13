@@ -1,12 +1,13 @@
 <?php
 
-$publisher = $_GET["publisher"];
+$title = $_GET["title"];
 
 include 'scripts/connections.php';
 
 $con = getConnection();
 
-$statement = "select count(*) from news where publisher = \"" . $publisher . "\"";
+ //$statement = "SELECT content from news where category = \"" . $category . " and publisher = \"" . $publisher . "\"";
+$statement = "SELECT content from news where title = \"" . $title . "\")";
 	 //  echo $statement;
 	   $result = mysqli_query($con,$statement);
 
@@ -15,4 +16,6 @@ $statement = "select count(*) from news where publisher = \"" . $publisher . "\"
 		  echo $row[0];
 		  }
       mysqli_close($con);
+
+
 ?>
