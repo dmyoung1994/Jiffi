@@ -5,34 +5,65 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
+	<string>A9EDAA66-932F-4ADB-85F0-E3B36071541B</string>
+=======
 	<string>3BAE082C-03A6-4A7B-899E-9B05DE69E1B5</string>
+>>>>>>> 21844f09d9ffc149be78f04cd7be94a015eb69d2
 	<key>IDESourceControlProjectName</key>
 	<string>Jiffi</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+<<<<<<< HEAD
+		<key>075530F5-BA31-403B-B49D-CEF9DD5A75B0</key>
+=======
 		<key>5E33BCF5-182E-45C8-A6C2-E3AEDD6234CA</key>
+>>>>>>> 21844f09d9ffc149be78f04cd7be94a015eb69d2
 		<string>https://github.com/dmyoung1994/Jiffi.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Jiffi.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+<<<<<<< HEAD
+		<key>075530F5-BA31-403B-B49D-CEF9DD5A75B0</key>
+		<string>../..</string>
+		<key>65A2C078-4FD1-495D-9F46-69E0A229BB75</key>
+		<string>../../../../../Downloads/Example-App</string>
+=======
 		<key>5E33BCF5-182E-45C8-A6C2-E3AEDD6234CA</key>
 		<string>../..</string>
+>>>>>>> 21844f09d9ffc149be78f04cd7be94a015eb69d2
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/dmyoung1994/Jiffi.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
+<<<<<<< HEAD
+	<string>075530F5-BA31-403B-B49D-CEF9DD5A75B0</string>
+=======
 	<string>5E33BCF5-182E-45C8-A6C2-E3AEDD6234CA</string>
+>>>>>>> 21844f09d9ffc149be78f04cd7be94a015eb69d2
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+<<<<<<< HEAD
+			<string>65A2C078-4FD1-495D-9F46-69E0A229BB75</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Example-App</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>075530F5-BA31-403B-B49D-CEF9DD5A75B0</string>
+=======
 			<string>5E33BCF5-182E-45C8-A6C2-E3AEDD6234CA</string>
+>>>>>>> 21844f09d9ffc149be78f04cd7be94a015eb69d2
 			<key>IDESourceControlWCCName</key>
 			<string>Jiffi</string>
 		</dict>

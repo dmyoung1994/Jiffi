@@ -7,9 +7,10 @@
 //
 
 #import "JiffiSportsTableViewController.h"
+#import "JiffiNewsArticlesTableViewController.h"
 
 @interface JiffiSportsTableViewController ()
-
+@property (nonatomic) int articles;
 @end
 
 @implementation JiffiSportsTableViewController
@@ -32,7 +33,18 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    self.sportsNews = @[@"ESPN", @"Sports Center", @"Golf", @"NBC", @"CBC", @"TSN"];
+    self.sportsNews = @[@"ESPN"];
+    [self.navigationController.navigationBar setHidden:NO];
+    [self.navigationController.navigationBar setBarTintColor:[UIColor colorWithRed:237.0/255.0 green:87.0/255.0 blue:68.0/255.0 alpha:1.0]];
+    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+}
+
+- (int)getNumberOfArticles {
+    NSString *urlString = @"http://retailigence.info/pinterest/jiffi/getCount.php?publisher=espn";
+    NSURL *myURL = [NSURL URLWithString:urlString];
+    NSString *string = [NSString stringWithContentsOfURL:myURL encoding:NSUTF8StringEncoding error:nil];
+    return [string intValue];
 }
 
 - (void)didReceiveMemoryWarning
@@ -49,6 +61,8 @@
     return 1;
 }
 
+
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
@@ -63,7 +77,8 @@
                                                             forIndexPath:indexPath];
     
     cell.textLabel.text = self.sportsNews[indexPath.row];
-    cell.detailTextLabel.text = @"30 articles";
+    self.articles = [self getNumberOfArticles];
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"%d articles", self.articles];
     
     // Configure the cell...
     
@@ -108,15 +123,21 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if([segue.identifier isEqualToString:@"sports"]){
+        if([[segue destinationViewController] isKindOfClass:[JiffiNewsArticlesTableViewController class]]) {
+            JiffiNewsArticlesTableViewController *ctrl = (JiffiNewsArticlesTableViewController *)[segue destinationViewController];
+            ctrl.publisher = @"espn";
+            ctrl.numberOfArticles = self.articles;
+        }
+        
+    }
 }
-*/
+
 
 @end

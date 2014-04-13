@@ -1,0 +1,55 @@
+PODS:
+  - AFNetworking (2.0.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.0.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.0.3):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.0.3)
+  - AFNetworking/Security (2.0.3)
+  - AFNetworking/Serialization (2.0.3)
+  - AFNetworking/UIKit (2.0.3):
+    - AFNetworking/NSURLConnection
+  - MagicalRecord (2.2):
+    - MagicalRecord/Core
+  - MagicalRecord/Core (2.2)
+  - MBProgressHUD (0.8)
+  - MSDynamicsDrawerViewController (1.5.1)
+  - NJKWebViewProgress (0.2.2):
+    - NJKWebViewProgress/Core
+    - NJKWebViewProgress/ProgressView
+  - NJKWebViewProgress/Core (0.2.2)
+  - NJKWebViewProgress/ProgressView (0.2.2)
+  - NSDate+TimeAgo (1.0.3)
+  - Spritz-SDK (0.8):
+    - AFNetworking (~> 2.0.1)
+    - MagicalRecord
+    - MBProgressHUD (~> 0.8)
+    - MSDynamicsDrawerViewController
+    - NJKWebViewProgress
+    - NSDate+TimeAgo
+
+DEPENDENCIES:
+  - Spritz-SDK (from `http://sdk.spritzinc.com/ios/0.8/Spritz-SDK-lahacks.podspec`)
+
+EXTERNAL SOURCES:
+  Spritz-SDK:
+    :podspec: http://sdk.spritzinc.com/ios/0.8/Spritz-SDK-lahacks.podspec
+
+SPEC CHECKSUMS:
+  AFNetworking: e499052cbf3d743e9bb727bb37adb9dc2547ba15
+  MagicalRecord: 95d49d74ef752cd52f6ad87bcb474817fc3978cf
+  MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
+  MSDynamicsDrawerViewController: 2409ca61449d8541a3ee640bfd2d230c3734d3c4
+  NJKWebViewProgress: 4f905b9ab7eb91525dc899cacebd2941a6d4553b
+  NSDate+TimeAgo: ca09306750ac2564418042aa10cf8365c36d2cee
+  Spritz-SDK: 41b9f4dbe5565bfd633bc56915378058adec141c
+
+COCOAPODS: 0.29.0

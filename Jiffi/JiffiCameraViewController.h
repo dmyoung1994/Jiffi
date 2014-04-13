@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MobileCoreServices/MobileCoreServices.h>
 
 @interface JiffiCameraViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@property (strong, nonatomic) IBOutlet UIButton *CameraSPritzButton;
+@property (strong, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
 
 @end

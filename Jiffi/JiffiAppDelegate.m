@@ -7,15 +7,19 @@
 //
 
 #import "JiffiAppDelegate.h"
+#import <Spritz-SDK/SpritzSDK.h>
 
 @implementation JiffiAppDelegate
 
+static NSString *kClientID =  @"2e7614554d4fbecc0";
+static NSString *kClientSecret = @"1ea3389d-dcb6-4346-83f8-4a085d24d09f";
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [SpritzSDK setClientID:kClientID clientSecret:kClientSecret redirecURI:@"https://sdk.spritzinc.com/js/1.0/examples/login_success.html"];
+    
     return YES;
 }
-							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

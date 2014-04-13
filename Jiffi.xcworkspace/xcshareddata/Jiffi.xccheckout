@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>791D5F16-D31B-46E2-8512-DE2436C50361</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Jiffi</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>075530F5-BA31-403B-B49D-CEF9DD5A75B0</key>
+		<string>https://github.com/dmyoung1994/Jiffi.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Jiffi.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>075530F5-BA31-403B-B49D-CEF9DD5A75B0</key>
+		<string>..</string>
+		<key>4A2669C9-2555-444B-9536-7C102691C036</key>
+		<string>../../../../Downloads/Example-App</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dmyoung1994/Jiffi.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>075530F5-BA31-403B-B49D-CEF9DD5A75B0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4A2669C9-2555-444B-9536-7C102691C036</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Example-App</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>075530F5-BA31-403B-B49D-CEF9DD5A75B0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Jiffi</string>
+		</dict>
+	</array>
+</dict>
+</plist>
