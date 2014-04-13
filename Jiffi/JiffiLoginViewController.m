@@ -1,18 +1,18 @@
 //
-//  JiffiNewNewsTVC.m
+//  JiffiLoginViewController.m
 //  Jiffi
 //
 //  Created by Daniel Young on 2014-04-12.
 //  Copyright (c) 2014 Jiffi. All rights reserved.
 //
 
-#import "JiffiNewNewsTVC.h"
+#import "JiffiLoginViewController.h"
 
-@interface JiffiNewNewsTVC ()
+@interface JiffiLoginViewController ()
 
 @end
 
-@implementation JiffiNewNewsTVC
+@implementation JiffiLoginViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,17 +27,18 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self fetchNewNews];
+    [self.navigationController.navigationBar setHidden:YES];
 }
 
-- (void) fetchNewNews {
-    // NSURL *url = url to database to get sources
-#warning Blocks main thread
-    // NSData *jsonResults = [NSData dataWithContentsOfURL:url];
-    //NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:jsonResults options:0 error:NULL];
-    // Parse through the dictionary then set the newsSource to be this array
+- (void)viewWillAppear:(BOOL)animated {
+    [self.navigationController.navigationBar setHidden:YES];
 }
 
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
 
 /*
 #pragma mark - Navigation

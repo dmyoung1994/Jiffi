@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B6DA796B7A7E45F8A3B2040B"
-               BuildableName = "libPods-NJKWebViewProgress.a"
-               BlueprintName = "Pods-NJKWebViewProgress"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "653678D318F94EB500D88CBA"
+               BuildableName = "Jiffi.app"
+               BlueprintName = "Jiffi"
+               ReferencedContainer = "container:Jiffi.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,7 +28,26 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "653678F418F94EB500D88CBA"
+               BuildableName = "JiffiTests.xctest"
+               BlueprintName = "JiffiTests"
+               ReferencedContainer = "container:Jiffi.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "653678D318F94EB500D88CBA"
+            BuildableName = "Jiffi.app"
+            BlueprintName = "Jiffi"
+            ReferencedContainer = "container:Jiffi.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -39,6 +58,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "653678D318F94EB500D88CBA"
+            BuildableName = "Jiffi.app"
+            BlueprintName = "Jiffi"
+            ReferencedContainer = "container:Jiffi.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -48,6 +76,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "653678D318F94EB500D88CBA"
+            BuildableName = "Jiffi.app"
+            BlueprintName = "Jiffi"
+            ReferencedContainer = "container:Jiffi.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

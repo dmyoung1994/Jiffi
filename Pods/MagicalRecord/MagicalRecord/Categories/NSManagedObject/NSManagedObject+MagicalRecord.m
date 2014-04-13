@@ -5,7 +5,6 @@
 
 #import "CoreData+MagicalRecord.h"
 
-
 static NSUInteger defaultBatchSize = kMagicalRecordDefaultBatchSize;
 
 

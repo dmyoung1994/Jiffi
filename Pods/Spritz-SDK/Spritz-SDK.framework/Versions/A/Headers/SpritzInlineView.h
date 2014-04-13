@@ -8,19 +8,20 @@
 
 #import <UIKit/UIKit.h>
 #import "SpritzViewController.h"
+#import "SpritzController.h"
 
 @protocol SpritzControllerDelegate;
 
 @interface SpritzInlineView : UIView
 
 @property (nonatomic, readonly) bool isCompleted;
+@property (nonatomic, readonly) SpritzController* spritzController;
 
 - (void)addSpritzControllerDelegate:(id<SpritzControllerDelegate>)delegate;
 - (void)addSpritzActionSheetButtons:(NSArray *)buttons;
 
 - (void)startSpritzing:(NSString *)source sourceType:(SourceFlags)sourceType;
 - (void)startSpritzing:(NSString *)source sourceType:(SourceFlags)sourceType speed:(NSInteger)speed;
-
 - (void)backButtonPressed;
 - (void)rewindButtonPressed;
 - (void)playButtonPressed;

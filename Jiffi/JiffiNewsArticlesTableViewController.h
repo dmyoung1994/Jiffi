@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface JiffiNewsArticlesTableViewController : UITableViewController
-@property (nonatomic, strong) NSDictionary *articlesDictionary;
-@property (nonatomic, strong) NSArray *articlesArray;
 - (int)wordCount:(NSString *)word;
+@property (nonatomic, strong) NSString *publisher;
+@property (nonatomic) int numberOfArticles;
 @end
