@@ -43,6 +43,7 @@
 
 -(void)uploadImage:(UIImage *)image
 {
+    [self.CameraSPritzButton setTitle:@"" forState:UIControlStateNormal];
     CGSize newSize = CGSizeMake(0.5, 0.5);
     
     image = [self imageWithImage:image convertToSize:(newSize)];
@@ -53,6 +54,7 @@
     
     // Init the URLRequest
     
+    [self.spinner startAnimating];
     
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
     [request setHTTPMethod:@"POST"];
@@ -77,6 +79,7 @@
         NSLog(@"SERVER STATUS: %i: %@", httpResponse.statusCode, [NSHTTPURLResponse localizedStringForStatusCode:httpResponse.statusCode]);
         NSLog(@"RESPONSE BODY: %@", [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);
         self.response = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+        [self.spinner stopAnimating];
         [self.CameraSPritzButton setTitle:@"Jiffi it!" forState:UIControlStateNormal];
     }];
     
