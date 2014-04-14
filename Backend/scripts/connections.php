@@ -1,7 +1,7 @@
 <?php
 
 function getConnection(){
-	$con=mysqli_connect("kalindar.com","kalindar_goh","yonghong123","kalindar_giffy");
+	$con=mysqli_connect();
       if (mysqli_connect_errno()){
         echo "Failed to connect to MySQL: " . mysqli_connect_error();
       }

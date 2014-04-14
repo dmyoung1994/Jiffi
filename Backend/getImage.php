@@ -131,7 +131,7 @@ if (move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $uploadfile)) {
 }
 
 function insertIntoDb ($data){
-	$con=mysqli_connect("kalindar.com","kalindar_goh","yonghong123","kalindar_giffy");
+	$con=mysqli_connect("");
       if (mysqli_connect_errno()){
          "Failed to connect to MySQL: " . mysqli_connect_error();
       }
