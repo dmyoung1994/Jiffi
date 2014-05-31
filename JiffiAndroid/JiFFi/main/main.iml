@@ -74,6 +74,7 @@
     <orderEntry type="library" exported="" name="spritz-util-1.0.2" level="project" />
     <orderEntry type="library" exported="" name="jackson-annotations-2.2.3" level="project" />
     <orderEntry type="library" exported="" name="jackson-datatype-joda-2.2.3" level="project" />
+    <orderEntry type="library" exported="" name="PdfViewer" level="project" />
     <orderEntry type="library" exported="" name="support-v4-19.0.1" level="project" />
     <orderEntry type="library" exported="" name="api-client-1.0.5-SNAPSHOT" level="project" />
     <orderEntry type="library" exported="" name="api-common-1.0.5-SNAPSHOT" level="project" />

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.35"
+        android:src="@drawable/logo"/>
+    <Button
+        android:id="@+id/b_chooseapdf"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="0.1"
+        android:background="@drawable/menubuttondark"
+        android:text="Choose a PDF"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        />
+    <Button
+        android:id="@+id/b_imagescanner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/menubuttonlight"
+        android:text="Image Scanner"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        />
+    <Button
+        android:id="@+id/b_voicetospritz"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/menubuttondark"
+        android:text="Voice to Spritz"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        />
+    <Button
+        android:id="@+id/b_savedfiles"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/menubuttonlight"
+        android:text="Saved Files"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        />
+
+<ImageButton
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.15"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/spritzlogo"
+    />
+
+</LinearLayout>

@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.lahacks.jiffi.android.main.MenuItemListActivity"
+            android:name="com.lahacks.jiffi.android.main.Menu"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,14 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.lahacks.jiffi.android.main.MenuItemDetailActivity"
-            android:label="@string/title_menuitem_detail"
-            android:parentActivityName="com.lahacks.jiffi.android.main.MenuItemListActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.lahacks.jiffi.android.main.MenuItemListActivity" />
-        </activity>
+        <!--<activity-->
+            <!--android:name="com.lahacks.jiffi.android.main.MenuItemDetailActivity"-->
+            <!--android:label="@string/title_menuitem_detail"-->
+            <!--android:parentActivityName="com.lahacks.jiffi.android.main.MenuItemListActivity" >-->
+            <!--<meta-data-->
+                <!--android:name="android.support.PARENT_ACTIVITY"-->
+                <!--android:value="com.lahacks.jiffi.android.main.MenuItemListActivity" />-->
+        <!--</activity>-->
     </application>
 
 </manifest>
