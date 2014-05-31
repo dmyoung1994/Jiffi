@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="spritz-display-1.0.2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/main/build/exploded-bundles/ComSpritzllcAndroidSpritzDisplay102SNAPSHOT.aar/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/main/build/exploded-bundles/ComSpritzllcAndroidSpritzDisplay102SNAPSHOT.aar/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
