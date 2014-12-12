@@ -11,8 +11,8 @@
 
 @implementation JiffiAppDelegate
 
-static NSString *kClientID =  @"2e7614554d4fbecc0";
-static NSString *kClientSecret = @"1ea3389d-dcb6-4346-83f8-4a085d24d09f";
+static NSString *kClientID =  @"";
+static NSString *kClientSecret = @"";
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
